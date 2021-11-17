@@ -1,0 +1,440 @@
+@media (min-width: 1200px) {
+
+body {
+    margin-left: 15px;
+    background-color: #fdf0f2;
+}
+
+nav, nav h1, nav a {
+    background-color: #ff6060;
+    color: #fdf0f2;
+    border: 45px;
+    padding: 5px;
+}
+
+footer, footer p{
+    margin-top: 30px;
+    background-color: #ff6060;
+    color: #fdf0f2;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    border: 45px;
+    padding: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Mono', monospace;
+    color: #f40005;
+}
+
+h1 {
+    display: inline;
+    margin-right: 15px;
+}
+
+
+p, table, li, a {
+    font-family: 'Space Mono', monospace;
+    color: #f96168;
+}
+
+a {
+    font-weight: 700;
+}
+
+
+figure {
+    position: relative;
+    width: 450px;
+
+}
+
+figure img {
+   display: block;
+   width: 450px;
+}
+
+figcaption {
+    position: absolute;
+    color: #f96168;
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+}
+
+iframe {
+    width: 1500px; 
+    height: 380px;
+    display: block;
+    margin: auto;
+}
+
+.rightStick {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.leftStick {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.rightStick figure {
+    width: 450px;
+}
+
+.rightStick p {
+    width: 975px;
+    padding: 5px;
+}
+
+.rightStick h4 {
+    width: 1500px;
+    text-align: right;
+    margin-right: 90px;
+}
+
+.leftStick figure {
+    width: 450px;;
+}
+
+.leftStick p {
+    width: 975px;
+    padding: 5px;
+}
+
+.leftStick h5 {
+    width: 1500px;
+    margin-left: 90px;
+}
+
+.versions {
+    width: 1500px; 
+    display: block;
+    margin: auto;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#about h2 {
+    width: 1500px;
+}
+
+#about figure {
+    width: 450px;
+}
+
+#aboutText {
+    width: 550px;
+    padding: 5px;
+    margin: 15px;
+}
+
+#aboutCreds {
+    width: 450px;
+    padding: 5px;
+    margin: 15px;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    body {
+        margin-left: 8px;
+        background-color: #fdf0f2;
+    }
+    
+    nav, nav h1, nav a {
+        background-color: #ff6060;
+        color: #fdf0f2;
+        border: 24px;
+        padding: 2.667px;
+    }
+    
+    footer, footer p{
+        margin-top: 30px;
+        background-color: #ff6060;
+        color: #fdf0f2;
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        border: 24px;
+        padding: 2.667px;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto Mono', monospace;
+        color: #f40005;
+    }
+    
+    h1 {
+        display: inline;
+        margin-right: 8px;
+    }
+    
+    
+    p, table, li, a {
+        font-family: 'Space Mono', monospace;
+        color: #f96168;
+    }
+    
+    a {
+        font-weight: 700;
+    }
+    
+    
+    figure {
+        position: relative;
+        width: 240px;
+    
+    }
+    
+    figure img {
+       display: block;
+       width: 240px;
+    }
+    
+    figcaption {
+        position: absolute;
+        color: #f96168;
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+    }
+
+    iframe {
+        width: 800px; 
+        height: 202.667px;
+        display: block;
+        margin: auto;
+    }
+    
+    .rightStick {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 16px;
+        flex-wrap: wrap;
+    }
+    
+    .leftStick {
+        display: flex;
+        flex-direction: row;
+        margin-top: 16px;
+        flex-wrap: wrap;
+    }
+    
+    .rightStick figure {
+        width: 240px;
+    }
+    
+    .rightStick p {
+        width: 520px;
+        padding: 2.667px;
+    }
+    
+    .rightStick h4 {
+        width: 800px;
+        text-align: right;
+        margin-right: 48px;
+    }
+    
+    .leftStick figure {
+        width: 240px;;
+    }
+    
+    .leftStick p {
+        width: 520px;
+        padding: 2.6667px;
+    }
+    
+    .leftStick h5 {
+        width: 800px;
+        margin-left: 48px;
+    }
+    
+    .versions {
+        width: 800px; 
+        display: block;
+        margin: auto;
+    }
+    
+    #about {
+        display: flex;
+        flex-direction: row;
+        margin-top: 16px;
+        flex-wrap: wrap;
+    }
+    
+    #about h2 {
+        width: 800px;
+    }
+    
+    #about figure {
+        width: 240px;
+    }
+    
+    #aboutText {
+        width: 293.333px;
+        padding: 2.6667px;
+        margin: 8px;
+    }
+    
+    #aboutCreds {
+        width: 240px;
+        padding: 2.6667px;
+        margin: 8px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 769px) {
+
+    body {
+        margin-left: 4.8px;
+        background-color: #fdf0f2;
+    }
+    
+    nav, nav h1, nav a {
+        background-color: #ff6060;
+        color: #fdf0f2;
+        border: 14.4px;
+        padding: 1.6px;
+    }
+    
+    footer, footer p{
+        margin-top: 9.6px;
+        background-color: #ff6060;
+        color: #fdf0f2;
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+        border: 14.4px;
+        padding: 1.6px;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Roboto Mono', monospace;
+        color: #f40005;
+    }
+    
+    h1 {
+        display: inline;
+        margin-right: 4.8px;
+    }
+    
+    
+    p, table, li, a {
+        font-family: 'Space Mono', monospace;
+        color: #f96168;
+    }
+    
+    a {
+        font-weight: 700;
+    }
+    
+    
+    figure {
+        position: relative;
+        width: 144px;
+    
+    }
+    
+    figure img {
+       display: block;
+       width: 144px;
+    }
+    
+    figcaption {
+        position: absolute;
+        color: #f96168;
+        font-family: 'Space Mono', monospace;
+        font-weight: 700;
+    }
+
+    iframe {
+        width: 480px; 
+        height: 121.6px;
+        display: block;
+        margin: auto;
+    }
+    
+    .rightStick {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 9.6px;
+        flex-wrap: wrap;
+    }
+    
+    .leftStick {
+        display: flex;
+        flex-direction: row;
+        margin-top: 9.6px;
+        flex-wrap: wrap;
+    }
+    
+    .rightStick figure {
+        width: 144px;
+    }
+    
+    .rightStick p {
+        width: 312px;
+        padding: 1.6px;
+    }
+    
+    .rightStick h4 {
+        width: 480px;
+        text-align: right;
+        margin-right: 28.8px;
+    }
+    
+    .leftStick figure {
+        width: 144px;;
+    }
+    
+    .leftStick p {
+        width: 312px;
+        padding: 1.6px;
+    }
+    
+    .leftStick h5 {
+        width: 480px;
+        margin-left: 28.8px;
+    }
+    
+    .versions {
+        width: 480px; 
+        display: block;
+        margin: auto;
+    }
+    
+    #about {
+        display: flex;
+        flex-direction: row;
+        margin-top: 9.6px;
+        flex-wrap: wrap;
+    }
+    
+    #about h2 {
+        width: 480px;
+    }
+    
+    #about figure {
+        width: 144px;
+    }
+    
+    #aboutText {
+        width: 176px;
+        padding: 1.6px;
+        margin: 4.8px;
+    }
+    
+    #aboutCreds {
+        width: 144px;
+        padding: 1.6px;
+        margin: 4.8px;
+    }
+    }

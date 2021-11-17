@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Jean Shalenkova's Personal Profile</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <!-- Not gonna lie I really don't understand the difference between using article and section over regular divs. They don't add any new functionality it's still just a box but with a longer and more uncomfortable name. Divs are individualized by class and id names anyway. This just made my code look crazy and the page still looks bad. -->
@@ -18,65 +24,85 @@
         </nav>
     </header>
     <h2>This page currently hosts stuff about my cats and a playlist I recently made on Spotify down below.</h2>
-    <section>
-        <h3>I have four cats:</h3>
-        <p>Yes, kinda crazy, I know...</p>
-        <article>
-            <p><img src="cairo.jpg" alt="a photo of Cairo" width="400px" style="margin-right: 20px; float: left">
-            This is Cairo. She's my main girl - twelve years old, half blind, a total drama queen, and a total attention w**re. We are unhealthily dependent on each other and I'll never have it another way. She keeps me safe at night and comforts me when I feel like crying because of having to wake up at 5:30 AM every morning. She's been with me for a little over five years and has helped me through some very difficult times, quite literally saving my life a few times. I love her so much.
-            </p>
-        </article>
-        </section>
-        <section>
-        <article width="400px">
-            <p><img src="bagira.jpg" alt="a photo of Bagira" width="400px" style="margin-left: 20px; float: right">
-            I've known Bagira since forever - literally. She was my grandma's cat, her absolute best friend, and when my grandmother passed, she calmly (and immediately) accepted that I'd be her new bestie. She's a total fatass (we don't leave food out for her at night anymore because she has no self control) and has no shame about it, to the point of screaming in the middle of the night when she's hungry - which is always, despite being given all the food she could ever want. She's a bit crazy and a bit too energetic for a 10 year old, but has adjusted surprisingly well to city life for a cat who spent her whole life on a farm. 
-            </p>
-        </article>
-    </section>
-    <br />
-    <br />
-    <!-- <br /> All  these unnecessary line breaks all because section and article do nothing -->
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <section>
-        <article width="400px">
-            <p><img src="kuzya.jpg" alt="a photo of Kuzya" width="400px" style="margin-right: 20px; float: left">
-            Kuzma, or Kuzya for short - he's our only boy and the cutest baby boy!!!! He's also my grandmother's cat. We first found him in the summer of 2019 when his mom decided that the rose beds near my grandma's front door was the best place to leave him and his brother, who were kittens the size of my palm at the time, while she went to hunt for food. She was a lady of good taste. When she disappeared and the weather got colder, him and his brother sidled up to Bagira as a makeshift mother, and my grandma took them in. He went through a lot of trauma since, losing his brother and experience something (we still don't know what) that made him averse to men, so despite him being a big and strong young man at two 1/2 years old, he is still a giant baby at heart and wants nothing more than to be hugged and pet. Here he is after we finally landed in JFK after a 10 hour flight - finally a moment of comfort!
-            </p>
-        </article>
-    </section>
-    <section>
-        <article>
-        <img src="lucia.jpg" alt="a photo of Lucia" width="400px" style="margin-left: 20px; float: right">
-            <p>Lucia is a crazy lady. She doesn't like anyone and nobody really likes her (except for Bagira, who uses her as a personal kickboxing trainer). She has some very rare moments in the wee hours of the morning when she wants to join the others in my cozy nest of slumber, but then she gets angry when someone's paw or tail gets in the way and it's all hell from there. We try to be nice to Lucia, since she has a lot of childhood trauma to contend with, but at the end of the day she's the grumpiest of us all and sometimes we're too tired to deal with grumpy. We love her all the same and just wish she loved us back.  
-            </p>
-        </article>
+
+    <h3>I have four cats:</h3>
+    <p>Yes, kinda crazy, I know...</p>
+    <article class="leftStick">
+
+        <h4>This is Cairo.</h5>
+        <figure><img src="images/cairo.jpg" alt="a photo of Cairo" width="400">
+            <figcaption>Cairo lays in bed, basking in the sun.</figcaption>
+        </figure>
+
+        <p>She's my main girl - twelve years old, half blind, a total drama queen, and a total attention w**re. We
+            are unhealthily dependent on each other and I'll never have it another way. She keeps me safe at night
+            and comforts me when I feel like crying because of having to wake up at 5:30 AM every morning. She's
+            been with me for a little over five years and has helped me through some very difficult times, quite
+            literally saving my life a few times. I love her so much.
+        </p>
+    </article>
+    <article class="rightStick">
+
+        <h4>This is Bagira.</h5>
+        <figure><img src="images/bagira.jpg" alt="a photo of Bagira" width="400">
+            <figcaption>Bagira is momentarily distracted from attacking a puppy toy.</figcaption>
+        </figure>
+
+        <p>I've known Bagira since forever - literally. She was my grandma's cat, her absolute best friend, and
+            when my grandmother passed, she calmly (and immediately) accepted that I'd be her new bestie. She's a
+            total fatass (we don't leave food out for her at night anymore because she has no self control) and has
+            no shame about it, to the point of screaming in the middle of the night when she's hungry - which is
+            always, despite being given all the food she could ever want. She's a bit crazy and a bit too energetic
+            for a 10 year old, but has adjusted surprisingly well to city life for a cat who spent her whole life on
+            a farm.
+        </p>
+    </article>
+
+    <article class="leftStick">
+
+        <h4>This is Kuzya.</h5>
+        <figure><img src="images/kuzya.jpg" alt="a photo of Kuzya" width="400">
+            <figcaption>Kuzya gets to relax on my suitcase after we landed together in JFK.</figcaption>
+        </figure>
+
+        <p>Kuzma, or Kuzya for short - he's our only boy and the cutest baby boy!!!! He's also my grandmother's
+            cat. We first found him in the summer of 2019 when his mom decided that the rose beds near my grandma's
+            front door was the best place to leave him and his brother, who were kittens the size of my palm at the
+            time, while she went to hunt for food. She was a lady of good taste. When she disappeared and the
+            weather got colder, him and his brother sidled up to Bagira as a makeshift mother, and my grandma took
+            them in. He went through a lot of trauma since, losing his brother and experience something (we still
+            don't know what) that made him averse to men, so despite him being a big and strong young man at two 1/2
+            years old, he is still a giant baby at heart and wants nothing more than to be hugged and pet. Here he
+            is after we finally landed in JFK after a 10 hour flight - finally a moment of comfort!
+        </p>
+    </article>
+    <article class="rightStick">
+
+        <h4>This is Lucia.</h5>
+        <figure><img src="images/lucia.jpg" alt="a photo of Lucia" width="400">
+            <figcaption>Lucia doesn't like most people, but she loves my computer chair.</figcaption>
+        </figure>
+
+        <p>Lucia is a crazy lady. She doesn't like anyone and nobody really likes her (except for Bagira, who uses
+            her as a personal kickboxing trainer). She has some very rare moments in the wee hours of the morning
+            when she wants to join the others in my cozy nest of slumber, but then she gets angry when someone's paw
+            or tail gets in the way and it's all hell from there. We try to be nice to Lucia, since she has a lot of
+            childhood trauma to contend with, but at the end of the day she's the grumpiest of us all and sometimes
+            we're too tired to deal with grumpy. We love her all the same and just wish she loved us back.
+        </p>
+    </article>
     </section>
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
 
-    <section>
+    <section class="leftStick">
         <h3>Here's some music I've been listening to lately:</h3>
-        <iframe src="https://open.spotify.com/embed/playlist/1nfktJPqNj4vZkWg4UVOEv" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe src="https://open.spotify.com/embed/playlist/1nfktJPqNj4vZkWg4UVOEv" allow="encrypted-media"></iframe>
+
     </section>
+
+    <footer>
+        <p> This website is maintained by Jean Shalenkova as a personal portfolio, 2021. </p>
+    </footer>
 </body>
 
 </html>

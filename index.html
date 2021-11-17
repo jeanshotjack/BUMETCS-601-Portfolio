@@ -1,61 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Jean Shalenkova's Personal Profile</title>
-    </head>
-    <body>
-        <header>
-            
-            <nav>
-                <h1>Jean Shalenkova</h1>
-                <a href="index.html">Home</a> | 
-                <a href="projects.html">Projects</a> | 
-                <a href="personal.html">Personal</a> |
-                <a href="sitevers.html">Site Versions</a>
-            </nav>
-        </header>
-        <section>
-            <h3>Hey, I'm Jean!</h3>
-            <img src="jean.png" alt="a photo of Jean" width="200px" height="200px" ALIGN="left" style="margin-right: 20px"> 
-            <article>
-                <p>I'm a web and software developer currently pursuing a Master of Science in Software Development at Boston University Metropolitan College. As of November 2021, I am two courses away from graduation. I began my programming journey by taking a web development bootcamp back in 2019, so it's almost poetic to end these 2 years of nonstop learning by taking a course to refresh my memory and to catch up on new developments in the web dev world! I am building this website for CS 601 at BU - this is where I will log all my projects that I've made for my BU courses so far, and I hope to keep updating it during the next 5 weeks in the course. You can find a history of the site style <a href="sitevers.html">here</a>.</p>
-                <p>This academic year I began working as a high school computer science teacher at a charter school, teaching an Intro to CS course as well as AP Computer Science A. I never considered being a teacher in any point in my life before beginning this job - in fact, I actually had a strong aversion to a career in academia on any level. The pandemic put me in a stressful position financially and I applied to this job as a "why not" out of desperation. Taking the job was initially about convenience - a way for me to save up for a year so I could get some relief from being so broke. However, the more time I spend at this job and the more I get to know my students, the more I begin to love my job and see the appeal and reward people who always wanted to be educators experience. As a generally apathetic person, it's an interesting experience for me and I'm curious to see where it leads. </p>
-            </article>
-            <br />
-            <br />
-            <article>
-                <table>
-                    <h3>Here are some programming languages I know and my experience for each:</h3>
-                    <thead>
-                        <tr>
-                            <th>Language</th>
-                            <th>Proficiency</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Java</td>
-                            <td>Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>Javascript</td>
-                            <td>Intermediate</td>
-                        </tr>
-                        <tr>
-                            <td>Python</td>
-                            <td>Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>HTML</td>
-                            <td>Advanced</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td>Advanced</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </article>
-        </section>
-    </body>
+<html lang="en">
+
+<head>
+    <title>Jean Shalenkova's Personal Profile</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1>Jean Shalenkova</h1>
+            <a href="index.html">Home</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="personal.html">Personal</a> |
+            <a href="sitevers.html">Site Versions</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Hey, I'm Jean!</h3>
+        <figure><img src="images/jean.png" alt="a photo of Jean">
+            <figcaption>Jean sits under a bridge by the creek near their home.</figcaption>
+        </figure>
+        <article id="aboutText">
+            <h3>About me</h4>
+            <p>I'm a web and software developer currently pursuing a Master of Science in Software Development at Boston
+                University Metropolitan College. As of November 2021, I am two courses away from graduation. I began my
+                programming journey by taking a web development bootcamp back in 2019, so it's almost poetic to end
+                these 2 years of nonstop learning by taking a course to refresh my memory and to catch up on new
+                developments in the web dev world! I am building this website for CS 601 at BU - this is where I will
+                log all my projects that I've made for my BU courses so far, and I hope to keep updating it during the
+                next 5 weeks in the course. You can find a history of the site style <a href="sitevers.html">here</a>.
+            </p>
+            <p>This academic year I began working as a high school computer science teacher at a charter school,
+                teaching an Intro to CS course as well as AP Computer Science A. I never considered being a teacher in
+                any point in my life before beginning this job - in fact, I actually had a strong aversion to a career
+                in academia on any level. The pandemic put me in a stressful position financially and I applied to this
+                job as a "why not" out of desperation. Taking the job was initially about convenience - a way for me to
+                save up for a year so I could get some relief from being so broke. However, the more time I spend at
+                this job and the more I get to know my students, the more I begin to love my job and see the appeal and
+                reward people who always wanted to be educators experience. As a generally apathetic person, it's an
+                interesting experience for me and I'm curious to see where it leads. </p>
+        </article>
+        <br />
+        <br />
+        <article id="aboutCreds">
+            <h3>Here are some programming languages I know and my experience for each:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Language</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Java</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Advanced</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Here are some frameworks and stacks I am comfortable with:</h3>
+            <ul>
+                <li>React.js</li>
+                <li>MERN</li>
+                <li>MEAN</li>
+                <li>PyFlask</li>
+            </ul>
+        </article>
+    </section>
+    <footer>
+        This website is maintained by Jean Shalenkova as a personal portfolio, 2021.
+    </footer>
+</body>
+
 </html>
