@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&family=Macondo+Swash+Caps&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Medieval Validation Form</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <h1>Jean Shalenkova</h1>
+            <a href="index.html">Home</a> |
+            <a href="projects.html">Projects</a> |
+            <a href="personal.html">Personal</a> |
+            <a href="sitevers.html">Site Versions</a> | 
+            <a href="wall.html">Leave a message on the form!</a> | 
+            <a href="calc.html">Do some mathematics!</a>
+        </nav>
+    </header>
+    <h1>HALT! Validate Thyself</h1>
+    <p>'T needeth beest declared yond the Instructor of this Course hath decreed the Validation of all Entities; as such
+        thee wilt enter thy given and Family names, as well as the name of thy Facilitator to whom is't thee Report.
+    </p>
+
+    <div id="formContainer">
+        <form action="https://bucs601.com/submit.php" method="POST">
+            <label for="firstName">Given name:
+                <!-- Here we use a pattern to ONLY allow a-z, A-Z, minimum 2 letters in the input. -->
+                <input type="text" id="firstName" name="firstName" required pattern="[a-zA-Z]{2,}">
+                <div class="error" aria-live="polite"></div>
+            </label>
+
+            <label for="lastName">Family name:
+                <!-- Here we use a pattern to ONLY allow a-z, A-Z, minimum 2 letters in the input. -->
+                <input type="text" id="lastName" name="lastName" required pattern="[a-zA-Z]{2,}">
+                <div class="error" aria-live="polite"></div>
+            </label>
+
+            <label for="facilitator">Facilitator:
+                <!-- Here we use a pattern to ONLY allow these four names in the input. -->
+                <input type="text" id="facilitator" name="facilitator" required pattern="(Josh|Fazil|Chris|Christian)">
+                <div class="error" aria-live="polite"></div>
+            </label>
+
+            <span class="radios">
+                <label for="samePage">
+                    <input type="radio" id="samePage" name="samePage">
+                    Open in same tab
+                </label>
+
+                <label for="newPage">
+                    <input type="radio" id="newPage" name="newPage">
+                    Open in new tab
+                </label>
+            </span>
+
+            <span class="checks">
+                I am a...
+                <label for="check1">
+                    <input type="checkbox" id="check1" name="check1">
+                    Serf
+                </label>
+
+                <label for="check2">
+                    <input type="checkbox" id="check2" name="check2">
+                    Scholar
+                </label>
+            </span>
+
+            <input type="submit" value="Validate">
+        </form>
+    </div>
+    <script src="valid.js"></script>
+</body>
+
+</html>
